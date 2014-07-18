@@ -16,11 +16,11 @@ $.widget("revilkent.polygonalGraphWidget", {
             "rgba(0, 255, 0, 0.6)",
             "rgba(0, 0, 255, 0.6)"
         ],
-        max_val:99,
+        max_val: 99,
         phase_start: (Math.PI / 2),
-        margin:15,
+        margin: 15,
         grid: false,
-        meta: [],
+        labels: [],
         data: []
     },
     _create: function() {
@@ -42,7 +42,7 @@ $.widget("revilkent.polygonalGraphWidget", {
         this.options.canvas.width = this.options.canvas.width;
         var context = this.options.context;
         try{
-            this.options._totPoints = this.options.meta.length;
+            this.options._totPoints = this.options.labels.length;
             if(this.options._totPoints < 3)
                 throw "You must specify at least tree points!";
         }
@@ -79,7 +79,7 @@ $.widget("revilkent.polygonalGraphWidget", {
         });
         p.calculatePoints();
         for(var i = 0; i < this.options._totPoints; i++)
-            context.fillText(this.options.meta[i], (p.points[i]['xScreen'] + x), (p.points[i]['yScreen'] + y));
+            context.fillText(this.options.labels[i], (p.points[i]['xScreen'] + x), (p.points[i]['yScreen'] + y));
 
         if((this.options.data.length > 0)&&(typeof this.options.data[0] != 'object')){
             var data_temp = new Array(this.options.data);
@@ -101,8 +101,8 @@ $.widget("revilkent.polygonalGraphWidget", {
                 context.moveTo((s.points[0]['xScreen'] + x), (s.points[0]['yScreen'] + y));
                 context.fillStyle = this.options.graph_colors[(i % this.options.graph_colors.length)];
                 if(s.points.length != this.options._totPoints){
-                    //this._error("Data and Meta must have the same number of elements");
-                    throw "Meta and Data must have the same number of elements!";
+                    //this._error("Data and Labels must have the same number of elements");
+                    throw "Labels and Data must have the same number of elements!";
                 }
 
                 for(var j = 0; j < this.options._totPoints; j++)

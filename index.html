@@ -1,25 +1,22 @@
 <!DOCTYPE>
 <html>
-
     <head>
         <title>Polygonal Graph Widget</title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery-ui-1.11.0.min.js"></script>
         <script type="text/javascript" src="polygonalGraphWidget.js"></script>
     </head>
     <body>
         <canvas id="myCanvas" width="400" height="400"></canvas>
         <script>
-            var meta = new Array('ATT', 'DEF', 'SPD', 'ENE', 'MEN');
-            var data1 = new Array(80, 80, 92, 50, 93);
-            var data2 = new Array(70, 92, 99, 59,90);
+            var labels = new Array('ATT', 'DEF', 'SPD', 'ENE', 'MEN');
+            var data1= new Array(90, 85, 83, 93, 73);
+            var data2 = new Array(80, 63, 80, 80, 85);
             var data = new Array(data1, data2);
-
             var myVar = $("#myCanvas").polygonalGraphWidget(
                     {
-                        meta: meta,
+                        labels: labels,
                         data: data
-
                     }
             );
         </script>
