@@ -7,6 +7,7 @@ A jQuery widget that drows a polygonal graphic using canvas tag of HTML5.
 
 If you have some data included in a range and you want to represent it, you can do it using **PolygonalGraph** widget!
 Each data is rapresented by a point on the circle. If a data is small it will be close to the center, vice versa if the data is near to the max value it will be close to the circumference.
+This graphic is very intuitive, eg to rapresent and compare characteristics of footballers (attack, defence, speed, ...) or even characters of an RPG (life, magic points, agility, ...), etc...
 
 
 ###1) Requirements
@@ -95,4 +96,3 @@ In addition to *labels* and *data*, you can add others optional parameters to cu
             </script>
         </body>
     </html>
-
