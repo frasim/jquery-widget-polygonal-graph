@@ -34,11 +34,10 @@ Include a canvas in the body:
 ```
 
 Than you can use your widget:
-```js
+```html
 <script>
     var labels = new Array('ATT', 'DEF', 'SPD', 'ENE', 'MEN');  // labels that will be displayed
     var data = new Array(90, 74, 73, 64, 66);                   // the data you want to show in the graphic
-
     var myVar = $("#myCanvas").polygonalGraphWidget(
             {
                 labels: labels,
@@ -47,8 +46,6 @@ Than you can use your widget:
     );
 </script>
 ```
-
-
 
 In the script above we simply create two arrays, **labels** and **data**, with the same number of elements. They must contain at least **three** elements. *data* will contains number between **0** and **max_val** (99 by default).
 Than we pass these arrays to a widget named "polygonalGraphWidget" that is anchored to the canvas element identified by the id **myCanvas**.
