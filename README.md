@@ -11,12 +11,12 @@ This graphic is very intuitive, eg to rapresent and compare characteristics of f
 
 
 ###1) Requirements
-This widget is based on jQuery Widget Factory, than you must include "jquery" and jquery-ui libraries:
+This widget is based on jQuery Widget Factory, than you must include **jquery** and **jquery-u** libraries:
 
     <script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="jquery/jquery-ui-1.11.0.min.js"></script>
 
-In my case the libraries are in a folder named "jquery".
+In this case the libraries are in a folder named "jquery".
 
 
 ###2) Include the widget
@@ -32,14 +32,13 @@ Include a canvas in the body:
 Than you can use your widget:
         
         <script>
-            var labels = new Array('ATT', 'DEF', 'SPD', 'ENE', 'MEN');    // labels that will be displayed
+            var labels = new Array('ATT', 'DEF', 'SPD', 'ENE', 'MEN');  // labels that will be displayed
             var data = new Array(90, 74, 73, 64, 66);                   // the data you want to show in the graphic
 
             var myVar = $("#myCanvas").polygonalGraphWidget(
                     {
                         labels: labels,
                         data: data
-
                     }
             );
         </script>
