@@ -1,12 +1,7 @@
 {
-	"name": "revilkent/soccer",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/revilkent/jquery-widget-polygonalGraph"
-        }
-    ],
-    "require": {
-        "revilkent/jquery-widget-polygonalGraph": "1.0.*"
-    }
+	"name": "revilkent/jquery-widget-polygonalGraph",
+	"require": {
+		"components/jquery": "1.x"
+		"comensee/jquery-ui": "1.x"
+	}
 }
