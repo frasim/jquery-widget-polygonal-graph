@@ -29,7 +29,7 @@
 "download": "https://github.com/revilkent/jquery-widget-polygonal-graph/archive/master.zip",
 "dependencies":
 	{
-	"jquery": "1.x.x",
-	"jquery-ui": "1.x.x"
+	"jquery": "1.x",
+	"jquery-ui": "1.x"
 	}
 }
