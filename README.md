@@ -1,4 +1,4 @@
-jquery-widget-polygonalGraph
+jquery-widget-polygonal-graph
 ============================
 
 A jQuery widget that drows a polygonal graphic using canvas tag of HTML5.
