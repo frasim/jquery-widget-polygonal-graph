@@ -1,5 +1,5 @@
 {
-	"name": "revilkent/jquery-widget-polygonalGraph",
+	"name": "revilkent/jquery-widget-polygonal-graph",
 	"require": {
 		"components/jquery": "1.x",
 		"comensee/jquery-ui": "1.x"
