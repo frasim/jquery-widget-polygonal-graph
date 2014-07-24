@@ -21,9 +21,4 @@
 	"homepage": "https://github.com/revilkent/jquery-widget-polygonal-graph",
 	"docs": "https://github.com/revilkent/jquery-widget-polygonal-graph",
 	"download": "https://github.com/revilkent/jquery-widget-polygonal-graph/archive/master.zip",
-	"dependencies":
-		{
-		"jquery": "dev-master",
-		"jquery-ui": "dev-master"
-		}
 }
