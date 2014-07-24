@@ -2,7 +2,7 @@
 	"name": "revilkent/jquery-widget-polygonal-graph",
 	"title": "jQuery Polygonal Graphic Widget",
 	"description": "jQuery widget (widget factory) that draws a polygonal graphic using canvas tag of HTML5",
-	"keywords": ["jquery", "widget", "graphic", "canvas", "HTML5", "widget-factory"],
+	"keywords": ["jquery", "widget", "graphic", "animation", "canvas", "HTML5", "widget-factory"],
 	"require":
 		{
 		},
