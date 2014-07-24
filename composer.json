@@ -4,8 +4,7 @@
 	"license": "MIT",
 	"require":
 		{
-		"components/jquery": "dev-master",
-		"comensee/jquery-ui": "dev-master"
+
 		},
 	"authors":
 		[
