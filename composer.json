@@ -6,7 +6,6 @@
 	"require":
 		{
 		},
-	"version": "1.0.0",
 	"authors":
 		[
 		        {
@@ -19,6 +18,5 @@
 	"license": "MIT",
     	"bugs": "https://github.com/revilkent/jquery-widget-polygonal-graph/blob/master/issues",
 	"homepage": "http://revil.altervista.org",
-	"docs": "https://github.com/revilkent/jquery-widget-polygonal-graph",
-	"download": "https://github.com/revilkent/jquery-widget-polygonal-graph/archive/master.zip"
+	"docs": "https://github.com/revilkent/jquery-widget-polygonal-graph"
 }
