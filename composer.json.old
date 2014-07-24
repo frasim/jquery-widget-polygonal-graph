@@ -1,0 +1,16 @@
+{
+	"name": "revilkent/jquery-widget-polygonal-graph",
+	"keywords": ["jquery", "widget", "graphic", "canvas"],
+	"license": "MIT",
+	"require":
+		{
+		},
+	"authors":
+		[
+		        {
+		            "name": "Francesco Simeoli",
+		            "email": "francesco.simeoli@gmail.com"
+		        }
+    		],
+    	"homepage": "http://revil.altervista.org"
+}
