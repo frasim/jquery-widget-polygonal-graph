@@ -1,8 +1,17 @@
 {
 	"name": "revilkent/jquery-widget-polygonal-graph",
 	"license": "MIT",
-	"require": {
+	"require":
+		{
 		"components/jquery": "dev-master",
 		"comensee/jquery-ui": "dev-master"
-	}
-	}
+		}
+	"authors":
+		[
+		        {
+		            "name": "Francesco Simeoli",
+		            "email": "francesco.simeoli@gmail.com"
+		        }
+    		],
+    	"homepage": "http://revilkent.altervista.org"
+}
