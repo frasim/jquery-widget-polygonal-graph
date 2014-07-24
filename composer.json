@@ -1,7 +1,8 @@
 {
 	"name": "revilkent/jquery-widget-polygonal-graph",
+	"license": "MIT",
 	"require": {
 		"components/jquery": "dev-master",
 		"comensee/jquery-ui": "dev-master"
 	}
-}
+	}
