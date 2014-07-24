@@ -1,7 +1,7 @@
 {
 	"name": "revilkent/jquery-widget-polygonal-graph",
 	"require": {
-		"components/jquery": "1.x",
-		"comensee/jquery-ui": "1.x"
+		"components/jquery": "dev-master",
+		"comensee/jquery-ui": "dev-master"
 	}
 }
