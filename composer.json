@@ -1,5 +1,6 @@
 {
 	"name": "revilkent/jquery-widget-polygonal-graph",
+	"keywords": ["jquery", "widget", "graphic", "canvas"],
 	"license": "MIT",
 	"require":
 		{
