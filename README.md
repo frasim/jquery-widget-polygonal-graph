@@ -1,7 +1,8 @@
 jquery-widget-polygonal-graph
 ============================
 
-A jQuery widget that drows a polygonal graphic using canvas tag of HTML5.
+**jQuery Widget Polygonal Graph** is a jQuery widget based on widget factory.
+It draws a polygonal graphic on a circle using canvas tag of HTML5.
 
 <img src="https://raw.githubusercontent.com/revilkent/jquery-widget-polygonalGraph/master/screenshot.png" />
 
