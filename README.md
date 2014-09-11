@@ -12,7 +12,7 @@ This graphic is very intuitive, eg to rapresent and compare characteristics of f
 
 
 ###1) Requirements
-This widget is based on jQuery Widget Factory, than you must include **jquery** and **jquery-u** libraries:
+This widget is based on jQuery Widget Factory, than you must include **jquery** and **jquery-ui** libraries:
 
 ```html
 <script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
